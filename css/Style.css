@@ -1,0 +1,466 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #20202d;
+  margin: 0;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+span,
+div {
+  outline: none;
+}
+.section-title {
+  margin: 0;
+  margin-bottom: 80px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+}
+.section {
+  padding: 64px 0 92px;
+}
+.container {
+  max-width: 945px;
+  margin: 0 auto;
+  width: 90%;
+}
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 105px;
+}
+.hero {
+  padding-top: 50px;
+  background: linear-gradient(0.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+  padding-bottom: 155px;
+}
+.social-link {
+  margin-left: 20px;
+}
+.social-link:first-child {
+  margin-left: 0;
+}
+.hero-subtitle {
+  display: inline-block;
+  line-height: 28px;
+  color: #ffbb01;
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+.hero-title {
+  line-height: 59px;
+  font-weight: 900;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.hero-description {
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 420px;
+  margin-bottom: 38px;
+}
+
+.button {
+  background: linear-gradient(180deg, #fdde76 0%, #ffbb01 100%);
+  border: none;
+  box-shadow: 0px 4px 0px #b68500;
+  border-radius: 5px 5px 10px 10px;
+  padding: 24px 42px;
+  font-size: 14px;
+  line-height: 12px;
+
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.hero-avatar {
+  width: 389px;
+  height: 389px;
+  background-color: #fff;
+  background-image: url(../images/imgInten.jpg);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: left -296px top -270px;
+  border: 13px solid #fff;
+}
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*  Features */
+.features {
+  background-color: #000000;
+}
+.features-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.features-item {
+  flex-basis: 30%;
+  margin-bottom: 63px;
+}
+.features-image {
+  display: block;
+  margin-bottom: 22px;
+}
+.features-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 16px;
+}
+.features-text {
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+}
+
+/* projects  */
+
+.projects {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+.projects-slide {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.projects-slide img {
+  border-radius: 5px;
+}
+.project-text {
+  flex-basis: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-title {
+  flex-basis: 100%;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 41px;
+}
+.project-time,
+.project-cost {
+  flex-basis: 50%;
+  margin-bottom: 44px;
+}
+.project-time,
+.project-cost,
+.project-feedback {
+  display: flex;
+  align-items: flex-start;
+}
+.project-subtitle,
+.project-paragraph {
+  margin: 0;
+}
+.project-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 7px;
+}
+.project-paragraph {
+  font-size: 16px;
+  line-height: 19px;
+}
+.project-icon {
+  margin-right: 16px;
+}
+/* Contacts */
+.contacts-form {
+  background: #ffffff;
+  box-shadow: -5px 5px 0px #ffc41d;
+  border-radius: 5px;
+  max-width: 380px;
+  padding: 40px 48px 49px;
+}
+.form-title {
+  color: #000000;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 29px;
+}
+
+.input {
+  background: #f8f8f8;
+  box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 18px 20px;
+  padding-left: 50px;
+  font-size: 14px;
+  line-height: 28px;
+}
+.input-name {
+  margin-bottom: 17px;
+  background-image: url(../images/user-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center left 20px;
+}
+
+.input-phone {
+  margin-bottom: 17px;
+  background-image: url(../images/phone-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center left 20px;
+}
+.form-button {
+  padding: 24px 31px;
+}
+.contacts-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contacts-data {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 42px;
+}
+.contacts-phone,
+contacts-mail {
+  flex-basis: 50%;
+  margin-bottom: 53px;
+}
+.contacts-text {
+  flex-basis: 50%;
+}
+.contacts-social {
+  flex-basis: 100%;
+}
+.contacts-title {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 15px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.contacts-link {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 37px;
+}
+.contacts-link:hover {
+  text-decoration: underline;
+}
+.contacts-policy {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration: underline;
+  color: #a5a5a5;
+  margin-top: 72px;
+  color: lighgre;
+}
+.for--bg {
+  background-color: #20202d;
+}
+
+/* SLIDER */
+.projects-bullet-active {
+  width: 10px;
+  height: 10px;
+  background: #ffbb01;
+  border: 2px solid #ffbb01;
+  border-radius: 50%;
+  display: inline-block;
+}
+.projects-bullet {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #ffbb01;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+}
+.projects-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 44px;
+}
+
+/* ADAPTIV */
+@media (max-width: 1100px) {
+  .hero-avatar {
+    width: 340px;
+    height: 340px;
+    border-width: 10px;
+    background-position: left -322px top -270px;
+  }
+}
+
+@media (max-width: 915px) {
+  .hero-avatar {
+    width: 300px;
+    height: 300px;
+    border-width: 7px;
+    background-position: left -334px top -291px;
+  }
+}
+
+@media (max-width: 836px) {
+  .hero-content {
+    flex-direction: column;
+  }
+  .hero-avatar {
+    order: 0;
+    width: 300px;
+    height: 300px;
+    border-width: 7px;
+    background-position: left -334px top -291px;
+    margin-bottom: 17px;
+  }
+  .hero-text {
+    order: 1;
+    text-align: center;
+  }
+  .features-item {
+    flex-basis: 45%;
+  }
+  .projects-slide {
+    flex-direction: column;
+  }
+  .project-image {
+    margin-bottom: 46px;
+  }
+  .contacts-block {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .contacts-form {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 564px) {
+  .hero-subtitle {
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 5px;
+  }
+  .hero-avatar {
+    width: 113px;
+    height: 113px;
+    border-width: 4px;
+    background-size: cover;
+    background-position: center top;
+  }
+  .hero-header {
+    margin-bottom: 38px;
+  }
+  .social-link {
+    margin-left: 5px;
+  }
+  .hero-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .hero-description {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  .hero {
+    padding-bottom: 75px;
+  }
+  .section {
+    padding-top: 60px 0;
+  }
+  .section-title {
+    font-size: 19px;
+    line-height: 22px;
+    margin-bottom: 60px;
+  }
+  .features-item {
+    flex-basis: 100%;
+  }
+  .features-title {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .features-text {
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .features-image {
+    margin: 0 auto 10px;
+  }
+  .project-image {
+    display: block;
+    margin: 0 auto 50px;
+  }
+  .project-title {
+    text-align: center;
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .project-time,
+  .project-cost,
+  .project-feedback {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+  .project-paragraph {
+    font-size: 14px;
+  }
+  .contacts-form {
+    padding: 40px 19px;
+  }
+  .form-title {
+    font-size: 15px;
+    line-height: 140%;
+  }
+  .form-button {
+    font-size: 10px;
+    min-width: 100%;
+  }
+  .hero-button {
+    font-size: 12px;
+  }
+  .contacts-phone,
+  .contacts-mail {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+  .contacts-title {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .contacts-link {
+    font-size: 14px;
+    line-height: 16px;
+    display: block;
+    margin-bottom: 13px;
+  }
+  .social-linkss {
+    text-align: center;
+  }
+  .social-linkss img {
+    margin: 0 10px;
+  }
+  .contacts-policy {
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+  }
+}
